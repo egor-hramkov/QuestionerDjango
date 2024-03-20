@@ -49,3 +49,6 @@ class Link(models.Model):
         related_name="links",
         verbose_name="В каком опросе"
     )
+
+    def __str__(self):
+        return f"От <{self.from_question.text}> к <{self.to_question.text}> в опросе <{self.survey.title}>"
