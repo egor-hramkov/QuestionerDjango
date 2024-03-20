@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2647c2-03e8-4207-a313-b4f8fd804730" name="Changes" comment="init project">
+    <list default="true" id="0e2647c2-03e8-4207-a313-b4f8fd804730" name="Changes" comment="добавление psycopg2 и python-dotenv  в зависимости">
+      <change afterPath="$PROJECT_DIR$/Questioner/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questioner/serializers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questioner/serializers/answer_serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questioner/serializers/question_serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questioner/serializers/survey_serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questioner/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questioner/views/answer_view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questioner/views/question_view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questioner/views/survey_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questioner/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Questioner/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questioner/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Questioner/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questioner/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Questioner/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questioner/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestionerDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionerDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionerDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionerDjango/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +52,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Django Server.QuestionerDjango.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Projects/X5integration",
+    "last_opened_file_path": "C:/Projects/QuestionerDjango",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,6 +67,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\QuestionerDjango" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="QuestionerDjango" type="Python.DjangoServer" factoryName="Django server">
       <module name="QuestionerDjango" />
@@ -59,6 +80,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="QuestionerDjango.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -93,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710853141695</updated>
       <workItem from="1710853156101" duration="2120000" />
-      <workItem from="1710912140248" duration="114000" />
+      <workItem from="1710912140248" duration="9428000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
@@ -103,7 +125,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710853331210</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="настрока БД проекта">
+      <option name="closed" value="true" />
+      <created>1710912556684</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710912556684</updated>
+    </task>
+    <task id="LOCAL-00003" summary="добавление psycopg2 и python-dotenv  в зависимости">
+      <option name="closed" value="true" />
+      <created>1710912575023</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710912575023</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +149,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+    <MESSAGE value="настрока БД проекта" />
+    <MESSAGE value="добавление psycopg2 и python-dotenv  в зависимости" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавление psycopg2 и python-dotenv  в зависимости" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Questioner/views/survey_view.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
