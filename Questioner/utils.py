@@ -5,18 +5,10 @@ def prepare_survey_data(survey_data: dict) -> dict:
 
     questions = survey_data.pop('questions')
     links = survey_data.pop("links")
-    links_ids = []
 
-    # Формируем список айдишников, в каком порядке должны идти вопросы
-    for i, link in enumerate(links):
-        links_ids.append(link['from_question'])
-        if i == len(links) - 1:
-            links_ids.append(link['to_question'])
+    links_ids = [item['from_question'] for item in links]
+    links_ids.append(links[-1]['to_question'])
 
-    sorted_questions = []
-    # Достаём вопросы по айдишнику, таким образом формируя сортированный порядок
-    for link_id in links_ids:
-        q = next((item for item in questions if item["id"] == link_id), None)
-        sorted_questions.append(q)
+    sorted_questions = sorted(questions, key=lambda x: links_ids.index(x["id"]))
     survey_data['questions'] = sorted_questions
     return survey_data

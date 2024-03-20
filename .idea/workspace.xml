@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2647c2-03e8-4207-a313-b4f8fd804730" name="Changes" comment="Написание вьюсета для Link">
-      <change afterPath="$PROJECT_DIR$/Questioner/utils.py" afterDir="false" />
+    <list default="true" id="0e2647c2-03e8-4207-a313-b4f8fd804730" name="Changes" comment="Написание сериализации для полной модели опросника">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questioner/serializers/survey_serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Questioner/serializers/survey_serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questioner/views/survey_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/Questioner/views/survey_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questioner/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Questioner/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710853141695</updated>
       <workItem from="1710853156101" duration="2120000" />
-      <workItem from="1710912140248" duration="14487000" />
+      <workItem from="1710912140248" duration="15360000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
@@ -169,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710923844177</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Написание сериализации для полной модели опросника">
+      <option name="closed" value="true" />
+      <created>1710931876849</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710931876849</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +190,23 @@
     <MESSAGE value="Обновление зависимостей" />
     <MESSAGE value="добавление удобного отображения в модели Link" />
     <MESSAGE value="Написание вьюсета для Link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Написание вьюсета для Link" />
+    <MESSAGE value="Написание сериализации для полной модели опросника" />
+    <option name="LAST_COMMIT_MESSAGE" value="Написание сериализации для полной модели опросника" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Questioner/utils.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Questioner/utils.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
