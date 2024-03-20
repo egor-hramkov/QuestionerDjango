@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e2647c2-03e8-4207-a313-b4f8fd804730" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/Questioner/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Questioner/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Questioner/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Questioner/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Questioner/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Questioner/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Questioner/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Questioner/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionerDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionerDjango/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2duLiHTuOIQAK4c5n85H1hiaUCW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,11 +41,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Projects/X5integration",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -96,6 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710853141695</updated>
       <workItem from="1710853156101" duration="2120000" />
+      <workItem from="1710912140248" duration="114000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
