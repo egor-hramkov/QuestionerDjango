@@ -1,6 +1,7 @@
 from rest_framework.serializers import ModelSerializer
 
 from Questioner.models import Survey
+from Questioner.serializers.link_serializer import LinkSerializer
 from Questioner.serializers.question_serializer import QuestionWithAnswersSerializer
 
 
@@ -16,3 +17,4 @@ class SurveySerializer(ModelSerializer):
 class RetrieveSurveySerializer(SurveySerializer):
     """Сериализатор для полного ответа по опросу"""
     questions = QuestionWithAnswersSerializer(many=True, read_only=True)
+    links = LinkSerializer(many=True, read_only=True)

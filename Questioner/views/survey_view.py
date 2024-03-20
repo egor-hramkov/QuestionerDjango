@@ -3,6 +3,7 @@ from rest_framework.viewsets import ModelViewSet
 
 from Questioner.models import Survey
 from Questioner.serializers.survey_serializer import SurveySerializer, RetrieveSurveySerializer
+from Questioner.utils import prepare_survey_data
 
 
 class SurveyViewSet(ModelViewSet):
@@ -14,4 +15,5 @@ class SurveyViewSet(ModelViewSet):
         """Получение опроса с вопросами и ответами"""
         survey = self.get_object()
         serializer = RetrieveSurveySerializer(survey)
-        return Response(serializer.data)
+        response_data = prepare_survey_data(serializer.data)
+        return Response(response_data)
